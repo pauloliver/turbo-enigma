@@ -1,3 +1,5 @@
-/**
- * Created by paul on 6/17/16.
- */
+'use strict';
+
+const lib = require('./lib');
+
+module.exports = {createChain: lib.createChain, generateText: lib.generateText};
